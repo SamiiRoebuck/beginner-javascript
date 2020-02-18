@@ -1,5 +1,12 @@
 {
-  "extends": [
-    "wesbos"
-  ]
+  "extends": ["wesbos"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "tabWidth": 2,
+        "singleQuote": true
+      }
+    ]
+  }
 }
